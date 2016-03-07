@@ -1,8 +1,8 @@
 
 // Config -----------------------------------
-@syntax-hue:          230;
-@syntax-saturation:    1%;
-@syntax-brightness:   98%;
+@syntax-hue:          225; // reference 230
+@syntax-saturation:   25%; // reference 1%
+@syntax-brightness:   95%; // reference 98%
 
 
 // Monochrome -----------------------------------
@@ -22,6 +22,8 @@
 @hue-6:   hsl(41, 99%, 30%); // <-orange 1
 @hue-6-2: hsl(41, 99%, 38%); // <-orange 2
 
+@hue-2-2: darken(@hue-1, 5%);
+@hue-4-2: darken(@hue-4, 10%);
 
 // Base colors -----------------------------------
 @syntax-fg:     @mono-1;
